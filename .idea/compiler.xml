@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-config-demo" />
+        <module name="nacos-discovery-client" />
+        <module name="nacos-discovery-server" />
+        <module name="netty-client" />
+        <module name="springdata-jpa-demo" />
+        <module name="stock-gateway" />
+        <module name="stock-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netty-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
